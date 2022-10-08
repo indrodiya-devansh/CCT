@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+
+    tools:context=".simpleintrestexamples">
+
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="807dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10"
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:background="@raw/backgroundcct"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/red"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Examples"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="simple intrest"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/pink"
+                >
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1.Given that simple interest on a certain sum of money is Rs. 4016.25 at 9% per annum in 5
+                years. Find the sum of money."
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Let P be the principal amount or sum of money.
+
+Time (T) = 5 years
+
+Rate of interest (R) = 9%
+
+Simple interest earned (SI) = Rs. 4016.25
+
+As we know,
+
+SI = PTR/100
+
+Rs. 4016.25 = (P × 5 × 9)/100
+
+P = (Rs. 4016.25 × 100)/(5 × 9)
+
+= Rs. 8925
+
+Therefore, the sum of money is Rs. 8925."
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.2.Calculate the simple interest on Rs. 8000 for 15 months at 6 paise per rupee per month."
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Given,
+
+Principal amount (P) = Rs. 8000
+
+Time (T) = 15 months
+
+Rate (R) = 6 paise per rupee per month
+
+Here, the rate of interest and the time are given per month.
+
+So, we can use the simple interest formula as:
+
+SI = PTR/100
+
+= (Rs. 8000 × 15 × 6)/100
+
+= Rs. 7200
+
+Therefore, the simple interest is Rs. 7200."
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" Q.3:A sum of Rs. 25000 will become Rs. 31000 in 48 months at some rate of simple interest. Find the rate of interest per annum."
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Given,
+
+Principal amount (P) = Rs. 25000
+
+Time (T) = 48 months = (48/12) years = 4 years
+
+Total amount after 4 years (A) = Rs. 31000
+
+Let R be the rate of interest.
+
+As we know,
+
+A = P + SI
+
+Rs. 31000 = Rs. 25000 + [(Rs. 25000 × 4 × R)/100]
+
+Rs. 31000 – Rs. 25000 = Rs. 1000 × R
+
+R = Rs. 6000/Rs. 1000 = 6
+
+Therefore, the rate of interest per annum is 6%."
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Practice Questions"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1   A sum of Rs. 12000 is lent out at 5% per annum simple interest for 5 years. What will be the amount after 5 years?"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="10dp"
+                android:text="Q.2:  A sum of Rs 1750 is divided into two parts such that the interests on the first part at 8% simple interest per annum and that on the other part at 6% simple interest per annum are equal. What is the interest accumulated on each part (in Rs)?"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

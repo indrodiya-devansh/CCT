@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+    tools:context=".clockexamples">
+
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="650dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10"
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:background="@raw/backgroundcct"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/red"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Examples"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="clcck"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/pink"
+                >
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1A clock started at noon. By 10 minutes past 5,
+                 find the hour hand has turned through?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Explanation:
+   Angle traced by hour hand in 12 hrs = 360°
+Angle traced by hour hand in 5 hrs 10 min(310/60)hrs = [(360/12)*(
+
+310/60)] =31*5
+
+=155
+"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

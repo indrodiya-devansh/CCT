@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+
+    tools:context=".ageexamples">
+
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="807dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10"
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:background="@raw/backgroundcct"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/red"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Examples"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="age"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/pink"
+                >
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. In 4 years, Raj father age twice as raj.
+                Two years ago, Raj mother age twice as raj. If Raj is 32 ye
+                ars old in eight years from now, what is the age of Raj mot
+                her and father?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Explanation:
+
+Raj present age = 32 - 8
+
+= 24
+
+After 4 years, Raj age is 28 Raj father age is 28 * 2 = 56 His present age is 52.
+
+Two years ago, Raj age is 22. Raj mother age is 22 * 2 = 44 Her present age is 46
+"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.2The average age of three boys is
+                15 years. If their ages are in the ratio 3:5 : 7.
+                 Find the age of the youngest boy?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Explanation:
+
+Let the age of 3 boys be 3x, 5x and 7x
+
+respectively.
+
+(3x+5x+7x) / 3 = 15
+
+=>
+
+(15x/3) = 15
+
+15x = 15*3
+
+x = 3
+
+Age of youngest boy = 3x = 3*3
+
+= 9 years"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" Q.3Ratio between the ages of Rahul and Deepak
+                 is 4: 3. After 6
+                 Years Rahul age will be 26 years. What is Deepak"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Let the present ages of Rahul and Deepak is 4x and 3x.
+
+After 6 years Rahul age = 26 years. 4x + 6 = 26
+
+4x = 20
+
+⇒ x= 5
+
+Deepak age is = 3x
+
+= 3*5
+
+= 15"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Practice Questions"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1
+The average age of a woman and her daughter is 24 years.
+ The ratio of their
+
+ages is 3:1 respectively. What is the daughter age?"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="10dp"
+                android:text="Q.2:The sum of the present ages of a
+                father and his son is 60 years. Six years ago, Fathers age
+  was five times th
+                e age of the son. Find son age after 6 years?"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

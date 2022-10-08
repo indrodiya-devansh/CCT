@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+
+    tools:context=".simpleintrestformula">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@raw/backgroundcct"
+
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="Formula"
+            android:textAlignment="center"
+            android:textSize="45dp"
+            android:background="@raw/backgroundcct"
+
+            >
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cross">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="798dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="9"
+            android:background="@raw/backgroundcct"
+
+            android:orientation="vertical"
+            android:weightSum="9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Formula"
+                android:textAlignment="center"
+                android:textColor="@color/blue1"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="simple interest  Formula"
+                android:textAlignment="center"
+                android:textColor="@color/pink"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="simple interest"
+                android:textColor="@color/blue1"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Simple interest is a quick and easy method of calculating the interest charge on a loan. Simple interest is determined by multiplying the daily interest rate by the principal by the number of days that elapse between payments."
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="A = P (1 + rt)"
+                android:textColor="@color/pink"
+                android:textSize="22dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="A	=	final amount"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="P	=	initial principal balance"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="r	=	annual interest rate"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="t=	time (in years)"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="simple interest Tricks"
+                android:textColor="@color/blue1"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trick 1:- If a sum of money becomes “n” times in “T years” at simple interest, then the rate."
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trick 2:- If an amount P1 is lent out at simple interest of R1% per annum and another."
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trick 3:- A sum of money at simple interest n1 itself in t1 year. It will become n2 times of
+itself in (If Rate is constant)"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trick 4:- In what time will the simple interest be “n” of the principal at “r %” per annum:-"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Trick 5:- If a certain sum of money is lent out in n parts in such a manner that equal sum of
+money is obtained at simple interest on each part where interest rates are R1, R2, ... , Rn
+respectively and time periods are T1, T2, ... , Tn respectively, then the ratio in which the sum
+will be divided in n parts can be given by"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+    tools:context=".percentageexamples">
+
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="807dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10"
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:background="@raw/backgroundcct"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/red"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Examples"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Percenatge"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/pink"
+                >
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1: If 16% of 40% of a number is 8, then find the number."
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Let X be the required number.
+
+Therefore, as per the given question,
+
+(16/100) × (40/100) × X = 8
+
+So, X = (8 × 100 × 100) / (16 × 40)
+
+= 125"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.2  The sum of (16% of 24.2) and (10% of 2.42) is equal to what value?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="As per the given question ,
+
+Sum = (16% of 24.2) + (10% of 2.42)
+
+= (24.2 × 16)/100 + (2.42 × 10)/100
+
+= 3.872 + 0.242
+
+= 4.114"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" 3: Which number is 40% less than 90?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:
+
+Required number = 60% of 90
+
+= (90 x 60)/100
+
+= 54
+
+Therefore, the number 54 is 40% less than 90."
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Practice Questions"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1: A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had how many apples?"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="10dp"
+                android:text="Q.2: Out of two numbers, 40% of the greater number is equal to 60% of the smaller. If the sum of the numbers is 150, then the greater number is?"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

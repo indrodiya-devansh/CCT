@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+
+    tools:context=".trainexamples">
+
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="807dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10"
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:background="@raw/backgroundcct"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/red"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Examples"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="train"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/pink"
+                >
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1 A train 100m long is running at the speed of
+                30 km/hr. Find the time taken by it to
+                pass a man standing near the railway line?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Explanation:
+
+Speed of the train = [ 30*(5/18)] m/sec [(a) km/hr = (a* (5/18))
+
+m/s]
+
+= (25/3) m/sec =
+
+Distance moved in passing the standing man = 100m
+
+Required time taken = [ 100 / (25/3)]
+
+= [100*(3/15)]
+
+= 12 sec
+"
+                android:textColor="@color/coffee"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.2A train 150m long is running with a speed of 68kmph. In what time will it pass a man who is running at 8 kmph in the same direction in which the train is
+
+going?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Explanation:
+
+Speed of the train relative to man = (68
+
+8 )kmph
+
+= 60 kmph
+
+= [60*(5/18)] m/sec [(a) km/hr
+
+=(a* (5/18))] = [(105)/3]
+
+= (50/3)
+
+Time taken by the train to cross the man = Time taken by it to cover 150 m
+
+at (50/3) m/sec
+
+= [(1503) / 50 ]sec
+
+= (3*3)
+
+= 9 sec"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" A 180m long train is running at 72 Kmph. If it cr
+                ossed the platform in 20sec. then
+                find the platform Length?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Explanation:
+
+Length = Speed * Time
+
+Length = 72 km/hr * Time *
+
+Length = [72 (5/18)] 20 [(x) km/hr = (x*(5/18))]
+
+= 20 * 20
+
+Length = 400 m
+
+Length of Platform = Length - Length
+
+of the Train
+
+Length of Platform = 400 - 180
+
+Length of Platform = 220 m"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Practice Questions"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1 Explanation:
+
+Length = Speed * Time
+
+Length = 72 km/hr * Time *
+
+Length = [72 (5/18)] 20 [(x) km/hr = (x*(5/18))]
+
+= 20 * 20
+
+Length = 400 m
+
+Length of Platform = Length - Length
+
+of the Train
+
+Length of Platform = 400 - 180
+
+Length of Platform = 220 m"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="10dp"
+                android:text="Q.2:Two trains are running a
+                t 60 Kmph and 42 Kmph respectively, in same
+                direction. Fast train completely passes a man
+                sitting in the slower train in 30sec. What is
+                the length of the faster
+
+train?"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

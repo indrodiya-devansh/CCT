@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/drawable/happy.xml" value="0.1295" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/drawable/menu.xml" value="0.1295" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/drawable/money.xml" value="0.1295" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/drawable/mybutton.xml" value="0.126" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_ageexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_ageformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_agemcqtest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_ages_mainpage.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_average.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_averagecalc.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_averageexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_averageformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_averagemcqtest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_calendar_mainpage.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_calendarexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_calendarformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_calendarmcqtest.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_clock_mainpage.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_clockexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_clockformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_clockmcqtest.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_compoundintrest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_compoundintrestcalc.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_compoundintrestexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_compoundintrestmcqtest.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_compoundintrstformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_formula.xml" value="0.16547066272688898" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_hcflcm.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_hcflcmexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_hcflcmformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_hcflcmmcqtest.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_home.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_maths.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_otp.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_percentage.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_percentagecalc.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_percentageexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_percentageforumla.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_percentagemcqtest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_profitandloss.xml" value="0.18" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_profitandlossexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_profitandlossformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_profitandlossmcqtest.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_profitlosscalc.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_reasoning.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_simpleintrest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_simpleintrestcalc.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_simpleintrestexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_simpleintrestformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_simpleintrestmcqtest.xml" value="0.15604959384352288" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_trainexamples.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_trainformula.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_trainmcqtest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/activity_trains_mainpage.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/content_trainmcqtest.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/fragment_first.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/uttam/AndroidStudioProjects/cct/app/src/main/res/layout/fragment_second.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

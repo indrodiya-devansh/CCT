@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cct">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cct"
+        tools:targetApi="31">
+        <activity
+            android:name=".compoundintrestcalc"
+            android:exported="false" />
+        <activity
+            android:name=".simpleintrestcalc"
+            android:exported="false" />
+        <activity
+            android:name=".percentagecalc"
+            android:exported="false" />
+        <activity
+            android:name=".averagecalc"
+            android:exported="false" />
+        <activity
+            android:name=".hcflcmmcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".compoundintrestmcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".simpleintrestmcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".averagemcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".calendarmcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".clockmcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".trainmcqtest"
+            android:exported="false"
+            android:label="@string/title_activity_trainmcqtest"
+            android:theme="@style/Theme.Cct.NoActionBar" />
+        <activity
+            android:name=".agemcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".percentagemcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".calendarexamples"
+            android:exported="false" />
+        <activity
+            android:name=".calendarformula"
+            android:exported="false" />
+        <activity
+            android:name=".clockexamples"
+            android:exported="false" />
+        <activity
+            android:name=".clockformula"
+            android:exported="false" />
+        <activity
+            android:name=".trainexamples"
+            android:exported="false" />
+        <activity
+            android:name=".trainformula"
+            android:exported="false" />
+        <activity
+            android:name=".ageexamples"
+            android:exported="false" />
+        <activity
+            android:name=".ageformula"
+            android:exported="false" />
+        <activity
+            android:name=".hcflcm"
+            android:exported="false" />
+        <activity
+            android:name=".compoundintrest"
+            android:exported="false" />
+        <activity
+            android:name=".simpleintrest"
+            android:exported="false" />
+        <activity
+            android:name=".average"
+            android:exported="false" />
+        <activity
+            android:name=".percentage"
+            android:exported="false" />
+        <activity
+            android:name=".hcflcmexamples"
+            android:exported="false" />
+        <activity
+            android:name=".hcflcmformula"
+            android:exported="false" />
+        <activity
+            android:name=".compoundintrestexamples"
+            android:exported="false" />
+        <activity
+            android:name=".compoundintrstformula"
+            android:exported="false" />
+        <activity
+            android:name=".simpleintrestformula"
+            android:exported="false" />
+        <activity
+            android:name=".simpleintrestexamples"
+            android:exported="false" />
+        <activity
+            android:name=".averageexamples"
+            android:exported="false" />
+        <activity
+            android:name=".averageformula"
+            android:exported="false" />
+        <activity
+            android:name=".percentageexamples"
+            android:exported="false" />
+        <activity
+            android:name=".percentageforumla"
+            android:exported="false" />
+        <activity
+            android:name=".ClockMainpage"
+            android:exported="false" />
+        <activity
+            android:name=".CalendarMainpage"
+            android:exported="false" />
+        <activity
+            android:name=".TrainsMainpage"
+            android:exported="false" />
+        <activity
+            android:name=".AgesMainpage"
+            android:exported="false" />
+        <activity
+            android:name=".profitandlossexamples"
+            android:exported="false" />
+        <activity
+            android:name=".profitandlossformula"
+            android:exported="false" />
+        <activity
+            android:name=".profitlosscalc"
+            android:exported="false" />
+        <activity
+            android:name=".otp"
+            android:exported="false" />
+        <activity
+            android:name=".Reasoning"
+            android:exported="false" />
+        <activity
+            android:name=".profitandlossmcqtest"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".formula"
+            android:exported="false" />
+        <activity
+            android:name=".profitandloss"
+            android:exported="false" />
+        <activity
+            android:name=".maths"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

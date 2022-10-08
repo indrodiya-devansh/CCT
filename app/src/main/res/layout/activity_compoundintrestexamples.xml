@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+    tools:context=".compoundintrestexamples">
+
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="807dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10"
+            android:weightSum="9"
+            android:orientation="vertical"
+            android:background="@raw/backgroundcct"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Quantitative Aptitude"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/red"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Examples"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/blue1"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="compound intrest"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/pink"
+                >
+
+            </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1.Find the compound interest (CI) on Rs. 12,600 for 2 years at 10% per annum compounded annually."
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Given,
+
+Principal (P) = Rs. 12,600
+
+Rate (R) = 10
+
+Number of years (n) = 2
+
+A = P[1 +(R/100)]n
+
+= 12600[1 + (10/100)]2
+
+= 12600[1 + (1/10)]2
+
+= 12600 [(10 + 1)/10]2
+
+= 12600 × (11/10) × (11/10)
+
+= 126 × 121
+
+= 15246
+
+Total amount, A = Rs. 15,246
+
+Compound interest (CI) = A – P
+
+= Rs. 15,246 – Rs. 12,600
+
+= Rs. 2646"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.2.At what rate of compound interest per annum, a sum of Rs. 1200 becomes Rs. 1348.32 in 2 years?"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Let R% be the rate of interest per annum.
+
+Given,
+
+Principal (P) = Rs. 1200
+
+Total amount after 2 years (A) = Rs. 1348.32
+
+n = 2
+
+We know that,
+
+A = P[1 + (R/100)]n
+
+Rs. 1348.32 = Rs. 1200[1 + (R/100)]2
+
+1348.32/1200 = [1 + (R/100)]2
+
+[1 + (R/100)]2 = 134832/120000
+[1 + (R/100)]2 = 2809/2500
+[1 + (R/100)]2 = (53/50)2
+1 + (R/100) = 53/50
+
+R/100 = (53/50) – 1
+
+R/100 = (53 – 50)/50
+
+R = 300/50
+
+R = 6
+
+Hence, the rate of interest is 6%.
+
+Amount, when interest is compounded half-yearly, is
+A = P[1 + (R/200)]2n
+
+Here,
+
+R/200 = half-yearly rate
+
+2n = the number of half years"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=" Q.3:A TV was bought for Rs. 21,000. The value of the TV was depreciated by 5% per annum. Find the value of the TV after 3 years. (Depreciation means the reduction of value due to use and age of the item)"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Solution:"
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Principal (P) = Rs. 21,000
+
+Rate of depreciation (R) = 5%
+
+n = 3
+
+Using the formula of CI for depreciation,
+
+A = P[1 – (R/100)]n
+
+A = Rs. 21,000[1 (5/100)]3
+
+= Rs. 21,000[1 – (1/20)]3
+
+= Rs. 21,000[(20 – 1)/20]3
+
+= Rs. 21,000 × (19/20) × (19/20) × (19/20)
+
+= Rs. 18,004.875
+
+Therefore, the value of the TV after 3 years = Rs. 18,004.875."
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Practice Questions"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Q.1  Find the compound interest on Rs 48,000 for one year at 8% per annum when compounded half-yearly."
+                android:textColor="@color/pink"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                android:layout_marginTop="10dp"
+                android:text="Q.2:  Find the compound interest on Rs. 8000 at 15% per annum for 2 years 4 months, compounded annually."
+                android:textColor="@color/pink"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

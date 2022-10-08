@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@raw/backgroundcct"
+    tools:context=".profitandlossformula">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@raw/backgroundcct"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:text="Formula"
+            android:textAlignment="center"
+            android:textSize="45dp"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cross">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="800dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="9"
+        android:weightSum="9"
+        android:orientation="vertical"
+        android:background="@raw/backgroundcct"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Quantitative Aptitude"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/red"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Formula"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/blue1"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Profit And Loss"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/pink"
+            >
+
+        </TextView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cost Price"
+                android:textColor="@color/blue1"
+                android:textStyle="bold"
+                android:textSize="30dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="The amount paid for a product or commodity to purchase is called a cost price. Also, denoted as CP. This cost price is further classified into two different categories:"
+                android:textColor="@color/coffee"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Selling Price "
+            android:textColor="@color/blue1"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The amount for which the product is sold is called the Selling Price. It is usually denoted as SP. Also, sometimes called a sale price."
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Profit or Gain = Selling price – Cost Price "
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:textSize="22dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Loss = Cost Price – Selling Price"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:textSize="22dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Profit percentage (P%) = (Profit /Cost Price) x 100"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:textSize="22dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Loss percentage (L%) = (Loss / Cost price) x 100"
+            android:textColor="@color/pink"
+            android:textStyle="bold"
+            android:textSize="22dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Profit and Loss Tricks "
+            android:textColor="@color/blue1"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Profit, P = SP – CP; SP>CP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Loss, L = CP – SP; CP>SP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="P% = (P/CP) x 100"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="L% = (L/CP) x 100"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SP = {(100 + P%)/100} x CP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SP = {(100 – L%)/100} x CP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CP = {100/(100 + P%)} x SP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CP = {100/(100 – L%)} x SP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Discount = MP – SP"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SP = MP -Discount"
+            android:textColor="@color/coffee"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

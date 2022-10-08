@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/backgroundcct"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@raw/backgroundcct"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/menu">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="CCT"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/notifications">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="8"
+        android:weightSum="8"
+        android:orientation="vertical"
+        android:background="@raw/backgroundcct"
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_weight="4"
+            android:background="@drawable/mybutton"
+            android:onClick="maths"
+            android:padding="10dp"
+            android:text="Maths"
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@drawable/mybutton"
+            android:onClick="Reasoning"
+            android:padding="10dp"
+            android:text="Aptitude"
+            android:textColor="#ffffff"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+
+
+    
+
+
+
+</LinearLayout>
